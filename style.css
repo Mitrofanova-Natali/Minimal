@@ -1,0 +1,385 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+}
+
+.header {
+    min-height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 164px;
+}
+
+.diveContact {
+    margin-right: 143px;
+}
+
+ul.contact li {
+    display: inline;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: grey;
+}
+
+ul.contact li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+li.center {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.first {
+    height: 539px;
+    background: rgb(0, 114, 124);
+    background: linear-gradient(153deg, rgba(0, 114, 124, 1) 0%, rgba(6, 148, 145, 1) 43%, rgba(12, 186, 168, 1) 63%, rgba(13, 182, 166, 1) 99%);
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.iphoneLeft {
+    width: 446px;
+    top: 48px;
+    margin-left: 196px;
+    position: relative;
+    height: fit-content;
+}
+
+.outerCircle {
+    position: relative;
+    background-color: rgba(19, 185, 171, .2);
+    width: 452px;
+    height: 452px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.centralCircle {
+    background-color: rgba(19, 185, 171, .2);
+    width: 394px;
+    height: 394px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCircle {
+    width: 334px;
+    height: 334px;
+    border-radius: 50%;
+    background-color: rgba(19, 185, 171, .2);
+}
+
+.iphone {
+    width: 256px;
+    height: 446px;
+    position: absolute;
+    z-index: 2;
+    top: 59px;
+    left: 296px;
+}
+
+.iphoneRight {
+    margin-top: 180px;
+    margin-left: -1px
+}
+
+.globeApp {
+    display: flex;
+    align-items: center;
+}
+
+.globeText {
+    margin-left: 9px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.19;
+    color: #fff;
+}
+
+.myApp {
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 0.92;
+    color: #fff;
+}
+
+.textMyApp {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2.12;
+    color: #fff;
+}
+
+.aboutApp {
+    height: 753px;
+}
+
+.bottomBuyFirst {
+    height: 45px;
+    display: flex;
+}
+
+.cartFirst {
+    width: 55px;
+    height: 100%;
+    background-color: #259d8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyNowfirst {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.71;
+    color: #fff;
+    background-color: #54d3c3;
+    padding: 13px 24px 11px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.optionsApp {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+}
+
+.scrine {
+    width: 119px;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appMonitor {
+    background-color: rgba(189, 220, 222, .26);
+}
+
+.appTablet {
+    background-color: rgba(82, 163, 167, .68);
+}
+
+.appPhone {
+    background-color: rgba(31, 136, 142, .88);
+}
+
+.appPhone::after {
+    content: "";
+    position: absolute;
+    right: 51;
+    bottom: -34px;
+    border-top: 17px solid rgba(31, 136, 142, .88);
+    border-bottom: 17px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+.aboutMinimal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    font-size: 41px;
+    font-weight: 300;
+    line-height: 0.88;
+    color: #636363;
+}
+
+.textAbout {
+    font-size: 15px;
+    line-height: 1.47;
+    color: #9f9f9f;
+    max-width: 922px;
+    text-align: center;
+}
+
+.imgApp {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.laptopSection {
+    height: 528px;
+    background: linear-gradient(90deg, rgba(1, 100, 108, 1) 18%, rgba(9, 162, 151, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -1px;
+}
+
+.tools {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.serch {
+    background-color: #01646c;
+}
+
+.power {
+    background-color: #097b84;
+}
+
+.apple {
+    background-color: #118f99;
+}
+
+.basket {
+    background-color: #1da0aa;
+}
+
+.lock {
+    background-color: #29b7c2;
+}
+
+.star {
+    background-color: #3ccad5;
+}
+
+.tool {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myApps {
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 0.92;
+    color: #fff;
+    margin: 0;
+}
+
+.lorem {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2.12;
+    color: #fff;
+    margin: 0;
+}
+
+.bottomBuy {
+    height: 45px;
+    display: flex;
+}
+
+.cart {
+    width: 55px;
+    height: 100%;
+    background-color: #3edac6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyNow {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.71;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #06ccb3;
+    padding: 13px 24px 11px 20px;
+}
+
+.percent {
+    height: 513px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.percent-right {
+    background-color: #49d7b0;
+    min-width: 571px;
+    height: 513px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-percent {
+    width: 220px;
+    height: 220px;
+}
+
+.percent-left p {
+    color: #49d7b0;
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 1.26;
+    text-align: justify;
+    max-width: 61%;
+    margin: 0;
+}
+
+.percent-left .title {
+    font-size: 220px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.8;
+}
+
+.percent-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    font-size: 23px;
+    color: #989898;
+    line-height: 1.57;
+    font-weight: 300;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+   
+}
+
